@@ -1,0 +1,45 @@
+$body-bg: #FFFFFF;
+
+$primary: #E02726;
+$secondary: #7d82b8;
+$success: #b7e3cc;
+$info: #c4ffb2;
+$warning: #d6f7a3;
+$danger: #dd7596;
+$light: #FFFFFF;
+$dark: #000000;
+
+$navbar-light-color: #FFFFFF;
+$navbar-light-hover-color: #E02726;
+$navbar-light-active-color: #E02726;
+
+#hero {
+  height: 600px;
+  background-image: url(../images/home_page_hero_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .d-flex {
+  height: 800px;
+  padding: 2rem;
+}
+
+#service-hero {
+  height: 600px;
+  background-image: url(../images/services_hero_photo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#showcase-hero {
+  height: 600px;
+  background-image: url(../images/showcase_hero_photo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
