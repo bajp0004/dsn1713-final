@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
 $body-bg: #FFFFFF;
 
 $primary: #E02726;
-$secondary: #7d82b8;
+$secondary: #706962;
 $success: #b7e3cc;
 $info: #c4ffb2;
 $warning: #d6f7a3;
@@ -13,6 +16,17 @@ $navbar-light-color: #FFFFFF;
 $navbar-light-hover-color: #E02726;
 $navbar-light-active-color: #E02726;
 
+body {
+  font-family: "Libre Franklin", sans-serif;
+  background-color: var(--bs-light);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+
 #hero {
   height: 600px;
   background-image: url(../images/home_page_hero_photo.jpg);
@@ -21,7 +35,7 @@ $navbar-light-active-color: #E02726;
   background-size: cover;
 }
 
-#hero .d-flex {
+#hero, #service-hero, #showcase-hero .d-flex {
   height: 800px;
   padding: 2rem;
 }
@@ -41,7 +55,5 @@ $navbar-light-active-color: #E02726;
   background-position: center;
   background-size: cover;
 }
-
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";

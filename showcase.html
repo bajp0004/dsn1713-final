@@ -31,6 +31,7 @@
               <a class="nav-link active" aria-current="page" href="#">Showcase</a>
             </li>
           </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -39,54 +40,263 @@
     <section id="showcase-hero">
       <div class="container-lg w-75"> 
         <div class="d-flex text-light justify-content-center text-center align-items-center">
-          <h1>Showcase</h1>
+          <h1>SHOWCASE</h1>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="container p-5">
+      <div class="container p-5 d-flex">
+        <div class="p-3">
+          <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              FILTERS
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  PROJECT TYPE
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Renovation</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Restoration</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="thirdCheckbox">Excavation</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  AREA OR SPACE
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Area A</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Area B</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="thirdCheckbox">Area C</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  CONSTRUCTION TYPE
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Type A</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Type B</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="thirdCheckbox">Type C</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  ROOM TYPE
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Kitchen</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Bedroom</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="thirdCheckbox">Bathroom</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  PROJECT SCALE
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Commercial</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Residential</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  COMPLETION STATUS
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">Ongoing</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Upcoming</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="thirdCheckbox">Completed</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card card-body">
+              <div class="btn-group dropend">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  LOCATION
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="firstCheckbox">ON.</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox">
+                    <label class="form-check-label" for="secondCheckbox">Other</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-dark text-light">
               <img src="images/bathroom_reno.png" class="card-img-top" alt="Bathroom Renovation">
               <div class="card-body">
-                <h6 class="card-title">Type: Renovation</h6>
-                <h6> Location: ON.</h6>
+                <h6 class="card-title">TYPE: RENOVATION</h6>
+                <h6> LOCATION: ON.</h6>
                 <p class="card-text">This bathroom renovation transformed an outdated space into a modern, relaxing retreat. Fresh tiles, sleek fixtures, and a neutral color palette create a clean and timeless look. The new vanity offers both style and functionality, while improved lighting and updated plumbing bring comfort and efficiency. </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-dark text-light">
               <img src="images/indoor-reno.png" class="card-img-top" alt="Indoor Renovation">
               <div class="card-body">
-                <h6 class="card-title">Type: Renovation</h6>
-                <h6>Location: ON.</h6>
+                <h6 class="card-title">TYPE: RENOVATION</h6>
+                <h6>LOCATION: ON.</h6>
                 <p class="card-text">This room renovation completely refreshed the space with a modern, inviting design. Fresh paint, new flooring, and updated lighting transformed the atmosphere, while carefully chosen furniture and décor added comfort and personality. </p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-dark text-light">
               <img src="images/house_resto.png" class="card-img-top" alt="House Restoration">
               <div class="card-body">
-                <h6 class="card-title">Type: Restoration</h6>
-                <h6>Location: ON.</h6>
+                <h6 class="card-title">TYPE: RESTORATION</h6>
+                <h6>LOCATION: ON.</h6>
                 <p class="card-text">This house restoration brought new life to a beloved home while preserving its original charm. Structural repairs, updated electrical and plumbing systems, and careful refinishing of woodwork and architectural details blended old-world character with modern comfort.</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="images/big_excav.png" class="card-img-top" alt="Big Excavation">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/excav_1.png" class="card-img-top" alt="Excavation Process">
               <div class="card-body">
-                <h6 class="card-title">Type: Excavation</h6>
-                <h6>Location: ON.</h6>
+                <h6 class="card-title">TYPE: EXCAVATION</h6>
+                <h6>LOCATION: ON.</h6>
                 <p class="card-text">This building excavation involved carefully clearing and preparing the site for construction. The process included removing soil and debris, stabilizing the ground, and ensuring proper grading and drainage. Precision equipment and skilled operators worked to create a solid foundation area, meeting all safety and engineering standards to support the next phase of the building project.</p>
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/excav_2.png" class="card-img-top" alt="Excavation Bird's Eye">
+              <div class="card-body">
+                <h6 class="card-title">TYPE: EXCAVATION</h6>
+                <h6>LOCATION: ON.</h6>
+                <p class="card-text">The building excavation area was carefully measured and prepared to meet project specifications. Crews removed soil and rock to the required depth, ensuring a stable and level foundation base. Safety barriers and drainage systems were installed to control erosion and water flow, while ongoing inspections confirmed soil integrity and compliance with engineering standards.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/indoor-reno.png" class="card-img-top" alt="Bedroom Renovation">
+              <div class="card-body">
+                <h6 class="card-title">TYPE: RENOVATION</h6>
+                <h6>LOCATION: ON.</h6>
+                <p class="card-text">This bedroom renovation transformed the space into a cozy and modern retreat. Fresh paint, new flooring, and upgraded lighting created a warm and inviting atmosphere. A redesigned layout improved flow and functionality, while stylish furniture and décor added a personal touch. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/reno_process.png" class="card-img-top" alt="House Renovation">
+              <div class="card-body">
+                <h6 class="card-title">TYPE: RENOVATION</h6>
+                <h6>LOCATION: ON.</h6>
+                <p class="card-text">This inside staircase renovation revitalized a key feature of the home with a blend of style and safety. Old steps were replaced or refinished, and new railings and balusters were installed to enhance both appearance and stability.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/kitchen_reno.png" class="card-img-top" alt="Kitchen Renovation">
+              <div class="card-body">
+                <h6 class="card-title">TYPE: RENOVATION</h6>
+                <h6>LOCATION: ON.</h6>
+                <p class="card-text">This kitchen and dining open room renovation created a bright, seamless space perfect for both cooking and gathering. Walls were removed to enhance flow and natural light, while new cabinetry, countertops, and flooring unified the design. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark text-light">
+              <img src="images/building_resto.png" class="card-img-top" alt="Kitchen Renovation">
+              <div class="card-body">
+                <h6 class="card-title">TYPE: RESTORATION</h6>
+                <h6>LOCATION: ON.</h6>
+                <p class="card-text">The exterior restoration of the building focused on preserving its original character while improving durability and appearance. Damaged masonry and siding were repaired, surfaces were cleaned and repainted, and new sealants were applied to protect against weathering.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
 
@@ -97,6 +307,86 @@
 
 
   </main>
-
+  <footer id="footer" class="bg-dark">
+    <div class="container p-5">
+      <div class="d-flex justify-content-between align-items-center text-light">
+        <div class="">
+          <h3>
+            TOMMY G'S LTD
+          </h3>
+          <button class="btn btn-primary">
+            FREE ESTIMATE
+          </button>
+        </div>
+        <div>
+          <h4>
+            OUR SERVICES
+          </h4>
+          <ul class="list-unstyled list-group-flush">
+            <li>
+              <a href="#" class="text-light">
+                RENOVATIONS
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+              RESTORATIONS
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+              EXCAVATIONS
+              </a>
+            </li>
+        </div>
+        <div>
+          <h4>
+            OUR COMPANY
+          </h4>
+          <ul class="list-unstyled list-group-flush">
+            <li>
+              <a href="#" class="text-light">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+              ABOUT US
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-light">
+              SHOWCASE
+              </a>
+            </li>
+        </div>
+        <div>
+          <h4>
+            CONTACT US
+          </h4>
+          <ul class="list-unstyled list-group-flush">
+            <li class="text-light">
+                +1 613-889-3326
+            </li>
+            <li class="text-light">
+              TOMMYGSLTD@GMAIL.COM
+            </li>
+            <li>
+              <a href="#" class="text-light">
+              facebook
+              </a>
+              <a href="#" class="text-light">
+                linkdin
+              </a>
+              <a href="#" class="text-light">
+                instagram
+              </a>
+            </li>
+        </div>
+      </div>    
+      <span class="text-light">©2025 by TommyG’s LTD</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
