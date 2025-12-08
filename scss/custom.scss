@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+@import "../node_modules/animate.css/animate.css";
+
 $body-bg: #FFFFFF;
 
 $primary: #E02726;
-$secondary: #706962;
+$secondary: #7d82b8;
 $success: #b7e3cc;
 $info: #c4ffb2;
 $warning: #d6f7a3;
@@ -36,8 +40,8 @@ h1, h2, h3, h4 {
 }
 
 #hero, #service-hero, #showcase-hero .d-flex {
-  height: 800px;
-  padding: 2rem;
+  height: 500px;
+  padding: 10rem;
 }
 
 #service-hero {
@@ -54,6 +58,16 @@ h1, h2, h3, h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+section:not(#hero):not(#service-hero):not(#showcase-hero){
+  padding: 60px 0;
+}
+
+@media(min-width: 993px){
+  section:not(#hero):not(#service-hero):not(#showcase-hero){
+    padding: 100px 0;
+  }
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

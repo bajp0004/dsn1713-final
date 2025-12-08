@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tommy G's LTD</title>
   <link rel="stylesheet" href="css/custom.css">
+
 </head>
 
 
@@ -30,6 +31,11 @@
             <li class="nav-item">
               <a class="nav-link" href="showcase.html">Showcase</a>
             </li>
+            <li>
+              <button class="btn btn-primary" id="cta">
+                FREE ESTIMATE
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -40,7 +46,7 @@
     <section id="service-hero">
       <div class="container-lg w-75"> 
         <div class="d-flex text-light justify-content-center text-center align-items-center">
-          <h1>OUR SERVICES</h1>
+          <h1 class="animate__animated animate__fadeInDown">OUR SERVICES</h1>
         </div>
       </div>
     </section>
@@ -48,37 +54,38 @@
     <section id="renovations">
       <div class="container">
         <div class="row">
-          <div id="carousel" class="carousel slide col-3">
+          
+          <div id="reno-carousel" class="carousel slide col-lg-6">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/reno_carousel_1.png" class="d-block w-100" alt="...">
+                <img src="images/reno_carousel_1.png" class="d-block w-100" alt="Bathroom Reno">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="images/reno_carousel_2.png" class="d-block w-100" alt="House Reno">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="images/reno_carousel_3.png" class="d-block w-100" alt="Kitchen Reno">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#reno-carousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#reno-carousel" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
 
-          <div class="card col-3">
-            <h2 class="card-title">
-              Renovations
+          <div class="col">
+            <h2 class="text-lg-start text-primary">
+              RENOVATIONS
             </h2>
-            <p class="card-text">
+            <p class="text-lg-start text-sm-center">
               Refresh your interior with expert flooring renovations. We transform worn or outdated floors to enhance the look, comfort, and overall value of your space—delivering clean, professional results tailored to your style and needs.
             </p>
-            <button class="btn">
-              Book Now
+            <button class="btn btn-primary">
+              BOOK NOW
             </button>
           </div>
           
@@ -89,15 +96,39 @@
     <section id="restorations">
       <div class="container">
         <div class="row">
-          <div class="card col-3">
-            <h2 class="card-title">
-              Restorations
+
+          <div id="resto-carousel" class="carousel slide col-lg-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/resto_carousel_1.png" class="d-block w-100" alt="House Resto Finished">
+              </div>
+              <div class="carousel-item">
+                <img src="images/resto_carousel_2.png" class="d-block w-100" alt="House Resto Process">
+              </div>
+              <div class="carousel-item">
+                <img src="images/resto_carousel_3.png" class="d-block w-100" alt="Big Resto Process">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#resto-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#resto-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <div class="col">
+            <h2 class="text-lg-start text-primary">
+              RESTORATIONS
             </h2>
-            <p class="card-text">
+            <p class="text-lg-start text-sm-center">
               Restore the beauty and integrity of your home’s exterior with our siding and deck restoration services. We repair weathered siding and revive aging decks to extend their lifespan, improve safety, and bring back their original charm.
             </p>
-            <button class="btn">
-              Book Now
+            <button class="btn btn-primary">
+              BOOK NOW
             </button>
           </div>
           
@@ -108,16 +139,40 @@
     <section id="excavations">
       <div class="container">
         <div class="row">
-          <div class="card col-3">
-            <h2 class="card-title">
-              Excavations
-            </h2>
-            <p class="card-text">
-              We provide precise excavation services to prepare sites for commercial fit-ups, ensuring stable foundations, utility access, and proper drainage. Our team handles everything from site clearing to trenching with efficiency and safety top of mind.
-            </p>
-            <button class="btn">
-              Book Now
+
+          <div id="excav-carousel" class="carousel slide col-lg-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/excav_carousel_1.png" class="d-block w-100" alt="Large Excav">
+              </div>
+              <div class="carousel-item">
+                <img src="images/excav_carousel_2.png" class="d-block w-100" alt="Bird's Eye Excav">
+              </div>
+              <div class="carousel-item">
+                <img src="images/excav_carousel_3.png" class="d-block w-100" alt="Digger Excav">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#excav-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#excav-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <div class="col">
+              <h2 class="text-lg-start text-primary">
+                EXCAVATIONS
+              </h2>
+              <p class="text-lg-start text-sm-center">
+                We provide precise excavation services to prepare sites for commercial fit-ups, ensuring stable foundations, utility access, and proper drainage. Our team handles everything from site clearing to trenching with efficiency and safety top of mind.
+              </p>
+              <button class="btn btn-primary">
+                BOOK NOW
+              </button>
           </div>
           
         </div>
@@ -125,10 +180,11 @@
     </section>
 
   </main>
+  
   <footer id="footer" class="bg-dark">
     <div class="container p-5">
-      <div class="d-flex justify-content-between align-items-center text-light">
-        <div class="">
+      <div class="d-flex flex-sm-column flex-lg-row align-items-center text-light text-sm-center text-lg-start justify-content-between">
+        <div class="p-sm-3">
           <h3>
             TOMMY G'S LTD
           </h3>
@@ -136,7 +192,7 @@
             FREE ESTIMATE
           </button>
         </div>
-        <div>
+        <div class="p-sm-3">
           <h4>
             OUR SERVICES
           </h4>
@@ -157,13 +213,13 @@
               </a>
             </li>
         </div>
-        <div>
+        <div class="p-sm-3">
           <h4>
             OUR COMPANY
           </h4>
           <ul class="list-unstyled list-group-flush">
             <li>
-              <a href="#" class="text-light">
+              <a href="index.html" class="text-light">
                 HOME
               </a>
             </li>
@@ -173,7 +229,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="text-light">
+              <a href="showcase.html" class="text-light">
               SHOWCASE
               </a>
             </li>
@@ -184,27 +240,37 @@
           </h4>
           <ul class="list-unstyled list-group-flush">
             <li class="text-light">
-                +1 613-889-3326
+              <span class="material-icons-outlined">
+                phone
+              </span>
+              +1 613-889-3326
             </li>
             <li class="text-light">
+              <span class="material-icons-outlined">
+                mail
+                </span>
               TOMMYGSLTD@GMAIL.COM
             </li>
-            <li>
-              <a href="#" class="text-light">
-              facebook
+            <li class="align-items-center">
+              <a href="#">
+                <img src="images/facebook_icon.svg" alt="Facebook icon" width="20" height="20">
               </a>
-              <a href="#" class="text-light">
-                linkdin
+              <a href="#">
+                <img src="images/linkedin_icon.svg" alt="Linkedin icon" width="20" height="20">
               </a>
-              <a href="#" class="text-light">
-                instagram
+              <a href="#">
+                <img src="images/instagram_icon.svg" alt="Instagram icon" width="20" height="20">
               </a>
             </li>
         </div>
-      </div> 
-      <span class="text-light">©2025 by TommyG’s LTD</span>   
+      </div>    
+      <p class="text-light text-center p-5">©2025 by TommyG’s LTD</p>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+
+
 </body>
 </html>
